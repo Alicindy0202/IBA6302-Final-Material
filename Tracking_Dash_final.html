@@ -1,0 +1,2212 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Daily Nutriton Takein Tracking Dashboard</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/jquery.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/ResizeSensor.js"></script>
+
+            <link rel="stylesheet"  href="https://assets.pyecharts.org/assets/jquery-ui.css">
+
+</head>
+<body>
+    <style>.box {  }; </style>
+        
+    <div class="box">
+                <div id="33eb83d380064d21b0832b36a109845e" class="chart-container" style="position: absolute; width: 878px; height: 644px; top: 26.5px; left: 539px;"></div>
+    <script>
+        var chart_33eb83d380064d21b0832b36a109845e = echarts.init(
+            document.getElementById('33eb83d380064d21b0832b36a109845e'), 'white', {renderer: 'canvas'});
+        var option_33eb83d380064d21b0832b36a109845e = {
+    "baseOption": {
+        "series": [
+            {
+                "type": "bar",
+                "name": "Calories",
+                "legendHoverLink": true,
+                "data": [
+                    200.0,
+                    88,
+                    322,
+                    993
+                ],
+                "showBackground": false,
+                "barMinHeight": 0,
+                "barCategoryGap": "20%",
+                "barGap": "30%",
+                "large": false,
+                "largeThreshold": 400,
+                "seriesLayoutBy": "column",
+                "datasetIndex": 0,
+                "clip": true,
+                "zlevel": 0,
+                "z": 2,
+                "label": {
+                    "show": false,
+                    "position": "top",
+                    "margin": 8
+                }
+            },
+            {
+                "type": "bar",
+                "name": "Fat",
+                "yAxisIndex": 1,
+                "legendHoverLink": true,
+                "data": [
+                    2.5,
+                    0.88,
+                    2.78,
+                    14.44
+                ],
+                "showBackground": false,
+                "stack": "stack1",
+                "barMinHeight": 0,
+                "barCategoryGap": "20%",
+                "barGap": "30%",
+                "large": false,
+                "largeThreshold": 400,
+                "seriesLayoutBy": "column",
+                "datasetIndex": 0,
+                "clip": true,
+                "zlevel": 0,
+                "z": 2,
+                "label": {
+                    "show": false,
+                    "position": "top",
+                    "margin": 8
+                }
+            },
+            {
+                "type": "bar",
+                "name": "Carbs",
+                "yAxisIndex": 1,
+                "legendHoverLink": true,
+                "data": [
+                    38.03,
+                    18.56,
+                    68.73,
+                    172.16
+                ],
+                "showBackground": false,
+                "stack": "stack1",
+                "barMinHeight": 0,
+                "barCategoryGap": "20%",
+                "barGap": "30%",
+                "large": false,
+                "largeThreshold": 400,
+                "seriesLayoutBy": "column",
+                "datasetIndex": 0,
+                "clip": true,
+                "zlevel": 0,
+                "z": 2,
+                "label": {
+                    "show": false,
+                    "position": "top",
+                    "margin": 8
+                }
+            },
+            {
+                "type": "bar",
+                "name": "Proteins",
+                "yAxisIndex": 1,
+                "legendHoverLink": true,
+                "data": [
+                    5.97,
+                    4.4,
+                    8.19,
+                    39.21
+                ],
+                "showBackground": false,
+                "stack": "stack1",
+                "barMinHeight": 0,
+                "barCategoryGap": "20%",
+                "barGap": "30%",
+                "large": false,
+                "largeThreshold": 400,
+                "seriesLayoutBy": "column",
+                "datasetIndex": 0,
+                "clip": true,
+                "zlevel": 0,
+                "z": 2,
+                "label": {
+                    "show": false,
+                    "position": "top",
+                    "margin": 8
+                }
+            },
+            {
+                "type": "pie",
+                "name": "Each Meal Percentage%",
+                "clockwise": true,
+                "data": [
+                    {
+                        "name": "Calories",
+                        "value": 1603.0
+                    },
+                    {
+                        "name": "Fat",
+                        "value": 20.6
+                    },
+                    {
+                        "name": "Carbs",
+                        "value": 297.48
+                    },
+                    {
+                        "name": "Proteins",
+                        "value": 57.77
+                    }
+                ],
+                "radius": "28%",
+                "center": [
+                    "60%",
+                    "35%"
+                ],
+                "label": {
+                    "show": true,
+                    "position": "top",
+                    "margin": 8
+                },
+                "tooltip": {
+                    "show": true,
+                    "trigger": "item",
+                    "triggerOn": "mousemove|click",
+                    "axisPointer": {
+                        "type": "line"
+                    },
+                    "showContent": true,
+                    "alwaysShowContent": false,
+                    "showDelay": 0,
+                    "hideDelay": 100,
+                    "textStyle": {
+                        "fontSize": 14
+                    },
+                    "borderWidth": 0,
+                    "padding": 5
+                },
+                "rippleEffect": {
+                    "show": true,
+                    "brushType": "stroke",
+                    "scale": 2.5,
+                    "period": 4
+                }
+            }
+        ],
+        "timeline": {
+            "axisType": "category",
+            "orient": "horizontal",
+            "autoPlay": true,
+            "controlPosition": "left",
+            "loop": true,
+            "rewind": false,
+            "show": true,
+            "inverse": false,
+            "playInterval": 2500,
+            "bottom": "-5px",
+            "data": [
+                "2022-05-10",
+                "2022-05-11",
+                "2022-05-12"
+            ]
+        },
+        "xAxis": [
+            {
+                "show": true,
+                "scale": false,
+                "nameLocation": "end",
+                "nameGap": 15,
+                "gridIndex": 0,
+                "inverse": false,
+                "offset": 0,
+                "splitNumber": 5,
+                "minInterval": 0,
+                "splitLine": {
+                    "show": false,
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0,
+                        "type": "solid"
+                    }
+                },
+                "data": [
+                    "breakfast",
+                    "lunch",
+                    "afternoon",
+                    "supper"
+                ]
+            }
+        ],
+        "yAxis": [
+            {
+                "type": "value",
+                "name": "Calories",
+                "show": true,
+                "scale": false,
+                "nameLocation": "end",
+                "nameGap": 15,
+                "gridIndex": 0,
+                "inverse": false,
+                "offset": 0,
+                "splitNumber": 5,
+                "max": 2000,
+                "minInterval": 0,
+                "splitLine": {
+                    "show": false,
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0,
+                        "type": "solid"
+                    }
+                }
+            },
+            {
+                "type": "value",
+                "name": "Fat/Carbs/Proteins",
+                "show": true,
+                "scale": false,
+                "nameLocation": "end",
+                "nameGap": 15,
+                "gridIndex": 0,
+                "inverse": false,
+                "offset": 0,
+                "splitNumber": 5,
+                "min": 0,
+                "max": 300,
+                "minInterval": 0,
+                "splitLine": {
+                    "show": false,
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0,
+                        "type": "solid"
+                    }
+                }
+            }
+        ]
+    },
+    "options": [
+        {
+            "legend": [
+                {
+                    "data": [
+                        "Calories",
+                        "Fat",
+                        "Carbs",
+                        "Proteins",
+                        "Calories",
+                        "Fat",
+                        "Carbs",
+                        "Proteins"
+                    ],
+                    "selected": {
+                        "Calories": true,
+                        "Fat": true,
+                        "Carbs": true,
+                        "Proteins": true
+                    },
+                    "show": true,
+                    "left": 150,
+                    "top": 60,
+                    "orient": "vertical",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "bar",
+                    "name": "Calories",
+                    "legendHoverLink": true,
+                    "data": [
+                        302.0,
+                        617.0,
+                        144.0,
+                        900.0
+                    ],
+                    "showBackground": false,
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    }
+                },
+                {
+                    "type": "bar",
+                    "name": "Fat",
+                    "yAxisIndex": 1,
+                    "legendHoverLink": true,
+                    "data": [
+                        16.04,
+                        38.39,
+                        1.29,
+                        30.87
+                    ],
+                    "showBackground": false,
+                    "stack": "stack1",
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    }
+                },
+                {
+                    "type": "bar",
+                    "name": "Carbs",
+                    "yAxisIndex": 1,
+                    "legendHoverLink": true,
+                    "data": [
+                        30.08,
+                        2.32,
+                        34.47,
+                        115.71
+                    ],
+                    "showBackground": false,
+                    "stack": "stack1",
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    }
+                },
+                {
+                    "type": "bar",
+                    "name": "Proteins",
+                    "yAxisIndex": 1,
+                    "legendHoverLink": true,
+                    "data": [
+                        2.74,
+                        61.78,
+                        2.94,
+                        26.55
+                    ],
+                    "showBackground": false,
+                    "stack": "stack1",
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    }
+                },
+                {
+                    "type": "pie",
+                    "name": "Each Meal Percentage%",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "Calories",
+                            "value": 1963.0
+                        },
+                        {
+                            "name": "Fat",
+                            "value": 86.59
+                        },
+                        {
+                            "name": "Carbs",
+                            "value": 182.57999999999998
+                        },
+                        {
+                            "name": "Proteins",
+                            "value": 94.00999999999999
+                        }
+                    ],
+                    "radius": "28%",
+                    "center": [
+                        "60%",
+                        "35%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "xAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    },
+                    "data": [
+                        "breakfast",
+                        "lunch",
+                        "afternoon",
+                        "supper"
+                    ]
+                }
+            ],
+            "yAxis": [
+                {
+                    "type": "value",
+                    "name": "Calories",
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "max": 2000,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    }
+                },
+                {
+                    "type": "value",
+                    "name": "Fat/Carbs/Proteins",
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "min": 0,
+                    "max": 300,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "Nutrition Intake per Meal per Day",
+                    "subtext": "2022-05-10",
+                    "left": "center",
+                    "top": 10,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "textStyle": {
+                        "fontWeight": "bold",
+                        "fontSize": 24
+                    }
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "axis",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "shadow"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            }
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "Calories",
+                        "Fat",
+                        "Carbs",
+                        "Proteins",
+                        "Calories",
+                        "Fat",
+                        "Carbs",
+                        "Proteins"
+                    ],
+                    "selected": {
+                        "Calories": true,
+                        "Fat": true,
+                        "Carbs": true,
+                        "Proteins": true
+                    },
+                    "show": true,
+                    "left": 150,
+                    "top": 60,
+                    "orient": "vertical",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "bar",
+                    "name": "Calories",
+                    "legendHoverLink": true,
+                    "data": [
+                        272.0,
+                        468.0,
+                        157.5,
+                        760.0
+                    ],
+                    "showBackground": false,
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    }
+                },
+                {
+                    "type": "bar",
+                    "name": "Fat",
+                    "yAxisIndex": 1,
+                    "legendHoverLink": true,
+                    "data": [
+                        15.04,
+                        5.46,
+                        0.585,
+                        28
+                    ],
+                    "showBackground": false,
+                    "stack": "stack1",
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    }
+                },
+                {
+                    "type": "bar",
+                    "name": "Carbs",
+                    "yAxisIndex": 1,
+                    "legendHoverLink": true,
+                    "data": [
+                        31.08,
+                        37.95,
+                        40.425,
+                        104.0
+                    ],
+                    "showBackground": false,
+                    "stack": "stack1",
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    }
+                },
+                {
+                    "type": "bar",
+                    "name": "Proteins",
+                    "yAxisIndex": 1,
+                    "legendHoverLink": true,
+                    "data": [
+                        3.24,
+                        59.73,
+                        1.935,
+                        16.0
+                    ],
+                    "showBackground": false,
+                    "stack": "stack1",
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    }
+                },
+                {
+                    "type": "pie",
+                    "name": "Each Meal Percentage%",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "Calories",
+                            "value": 1657.5
+                        },
+                        {
+                            "name": "Fat",
+                            "value": 49.085
+                        },
+                        {
+                            "name": "Carbs",
+                            "value": 213.45499999999998
+                        },
+                        {
+                            "name": "Proteins",
+                            "value": 80.905
+                        }
+                    ],
+                    "radius": "28%",
+                    "center": [
+                        "60%",
+                        "35%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "xAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    },
+                    "data": [
+                        "breakfast",
+                        "lunch",
+                        "afternoon",
+                        "supper"
+                    ]
+                }
+            ],
+            "yAxis": [
+                {
+                    "type": "value",
+                    "name": "Calories",
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "max": 2000,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    }
+                },
+                {
+                    "type": "value",
+                    "name": "Fat/Carbs/Proteins",
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "min": 0,
+                    "max": 300,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "Nutrition Intake per Meal per Day",
+                    "subtext": "2022-05-11",
+                    "left": "center",
+                    "top": 10,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "textStyle": {
+                        "fontWeight": "bold",
+                        "fontSize": 24
+                    }
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "axis",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "shadow"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            }
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "Calories",
+                        "Fat",
+                        "Carbs",
+                        "Proteins",
+                        "Calories",
+                        "Fat",
+                        "Carbs",
+                        "Proteins"
+                    ],
+                    "selected": {
+                        "Calories": true,
+                        "Fat": true,
+                        "Carbs": true,
+                        "Proteins": true
+                    },
+                    "show": true,
+                    "left": 150,
+                    "top": 60,
+                    "orient": "vertical",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "bar",
+                    "name": "Calories",
+                    "legendHoverLink": true,
+                    "data": [
+                        200.0,
+                        88,
+                        322,
+                        993
+                    ],
+                    "showBackground": false,
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    }
+                },
+                {
+                    "type": "bar",
+                    "name": "Fat",
+                    "yAxisIndex": 1,
+                    "legendHoverLink": true,
+                    "data": [
+                        2.5,
+                        0.88,
+                        2.78,
+                        14.44
+                    ],
+                    "showBackground": false,
+                    "stack": "stack1",
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    }
+                },
+                {
+                    "type": "bar",
+                    "name": "Carbs",
+                    "yAxisIndex": 1,
+                    "legendHoverLink": true,
+                    "data": [
+                        38.03,
+                        18.56,
+                        68.73,
+                        172.16
+                    ],
+                    "showBackground": false,
+                    "stack": "stack1",
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    }
+                },
+                {
+                    "type": "bar",
+                    "name": "Proteins",
+                    "yAxisIndex": 1,
+                    "legendHoverLink": true,
+                    "data": [
+                        5.97,
+                        4.4,
+                        8.19,
+                        39.21
+                    ],
+                    "showBackground": false,
+                    "stack": "stack1",
+                    "barMinHeight": 0,
+                    "barCategoryGap": "20%",
+                    "barGap": "30%",
+                    "large": false,
+                    "largeThreshold": 400,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "clip": true,
+                    "zlevel": 0,
+                    "z": 2,
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    }
+                },
+                {
+                    "type": "pie",
+                    "name": "Each Meal Percentage%",
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "name": "Calories",
+                            "value": 1603.0
+                        },
+                        {
+                            "name": "Fat",
+                            "value": 20.6
+                        },
+                        {
+                            "name": "Carbs",
+                            "value": 297.48
+                        },
+                        {
+                            "name": "Proteins",
+                            "value": 57.77
+                        }
+                    ],
+                    "radius": "28%",
+                    "center": [
+                        "60%",
+                        "35%"
+                    ],
+                    "label": {
+                        "show": true,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "tooltip": {
+                        "show": true,
+                        "trigger": "item",
+                        "triggerOn": "mousemove|click",
+                        "axisPointer": {
+                            "type": "line"
+                        },
+                        "showContent": true,
+                        "alwaysShowContent": false,
+                        "showDelay": 0,
+                        "hideDelay": 100,
+                        "textStyle": {
+                            "fontSize": 14
+                        },
+                        "borderWidth": 0,
+                        "padding": 5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "xAxis": [
+                {
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    },
+                    "data": [
+                        "breakfast",
+                        "lunch",
+                        "afternoon",
+                        "supper"
+                    ]
+                }
+            ],
+            "yAxis": [
+                {
+                    "type": "value",
+                    "name": "Calories",
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "max": 2000,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    }
+                },
+                {
+                    "type": "value",
+                    "name": "Fat/Carbs/Proteins",
+                    "show": true,
+                    "scale": false,
+                    "nameLocation": "end",
+                    "nameGap": 15,
+                    "gridIndex": 0,
+                    "inverse": false,
+                    "offset": 0,
+                    "splitNumber": 5,
+                    "min": 0,
+                    "max": 300,
+                    "minInterval": 0,
+                    "splitLine": {
+                        "show": false,
+                        "lineStyle": {
+                            "show": true,
+                            "width": 1,
+                            "opacity": 1,
+                            "curveness": 0,
+                            "type": "solid"
+                        }
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "Nutrition Intake per Meal per Day",
+                    "subtext": "2022-05-12",
+                    "left": "center",
+                    "top": 10,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "textStyle": {
+                        "fontWeight": "bold",
+                        "fontSize": 24
+                    }
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "axis",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "shadow"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            }
+        }
+    ]
+};
+        chart_33eb83d380064d21b0832b36a109845e.setOption(option_33eb83d380064d21b0832b36a109845e);
+    </script>
+<br/>                <div id="4beb9c5634134b3db09606dbad5e2f57" class="chart-container" style="position: absolute; width: 540px; height: 469px; top: 26.5px; left: 30px;"></div>
+    <script>
+        var chart_4beb9c5634134b3db09606dbad5e2f57 = echarts.init(
+            document.getElementById('4beb9c5634134b3db09606dbad5e2f57'), 'white', {renderer: 'canvas'});
+        var option_4beb9c5634134b3db09606dbad5e2f57 = {
+    "baseOption": {
+        "series": [
+            {
+                "type": "gauge",
+                "title": {
+                    "show": true,
+                    "position": "top",
+                    "color": "blue",
+                    "margin": 8,
+                    "fontSize": 40,
+                    "fontFamily": "Microsoft YaHei"
+                },
+                "detail": {
+                    "show": true,
+                    "backgroundColor": "transparent",
+                    "borderWidth": 0,
+                    "borderColor": "transparent",
+                    "offsetCenter": [
+                        0,
+                        "-40%"
+                    ],
+                    "formatter": "{value}%",
+                    "color": "auto",
+                    "fontStyle": "normal",
+                    "fontWeight": "normal",
+                    "fontFamily": "sans-serif",
+                    "fontSize": 15,
+                    "borderRadius": 0,
+                    "padding": 0,
+                    "shadowColor": "transparent",
+                    "shadowBlur": 0,
+                    "shadowOffsetX": 0,
+                    "shadowOffsetY": 0
+                },
+                "min": 0,
+                "max": 100,
+                "splitNumber": 10,
+                "radius": "50%",
+                "startAngle": 225,
+                "endAngle": -45,
+                "clockwise": true,
+                "data": [
+                    {
+                        "value": [
+                            82.6
+                        ]
+                    }
+                ],
+                "pointer": {
+                    "show": true,
+                    "length": "80%",
+                    "width": 8
+                },
+                "rippleEffect": {
+                    "show": true,
+                    "brushType": "stroke",
+                    "scale": 2.5,
+                    "period": 4
+                },
+                "TextStyleOpts": {
+                    "fontSize": 24
+                }
+            }
+        ],
+        "timeline": {
+            "axisType": "category",
+            "orient": "horizontal",
+            "autoPlay": true,
+            "controlPosition": "left",
+            "loop": true,
+            "rewind": false,
+            "show": false,
+            "inverse": false,
+            "playInterval": 2500,
+            "bottom": "-5px",
+            "data": [
+                "2022-05-10",
+                "2022-05-11",
+                "2022-05-12"
+            ]
+        }
+    },
+    "options": [
+        {
+            "legend": [
+                {
+                    "data": [
+                        ""
+                    ],
+                    "selected": {
+                        "": true
+                    },
+                    "show": false,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "gauge",
+                    "title": {
+                        "show": true,
+                        "position": "top",
+                        "color": "blue",
+                        "margin": 8,
+                        "fontSize": 40,
+                        "fontFamily": "Microsoft YaHei"
+                    },
+                    "detail": {
+                        "show": true,
+                        "backgroundColor": "transparent",
+                        "borderWidth": 0,
+                        "borderColor": "transparent",
+                        "offsetCenter": [
+                            0,
+                            "-40%"
+                        ],
+                        "formatter": "{value}%",
+                        "color": "auto",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                        "fontFamily": "sans-serif",
+                        "fontSize": 15,
+                        "borderRadius": 0,
+                        "padding": 0,
+                        "shadowColor": "transparent",
+                        "shadowBlur": 0,
+                        "shadowOffsetX": 0,
+                        "shadowOffsetY": 0
+                    },
+                    "min": 0,
+                    "max": 100,
+                    "splitNumber": 10,
+                    "radius": "50%",
+                    "startAngle": 225,
+                    "endAngle": -45,
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "value": [
+                                71.6
+                            ]
+                        }
+                    ],
+                    "pointer": {
+                        "show": true,
+                        "length": "80%",
+                        "width": 8
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    },
+                    "TextStyleOpts": {
+                        "fontSize": 24
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "Daily Nutrition Intake Completetion Rate",
+                    "subtext": "2022-05-10",
+                    "left": "center",
+                    "top": 10,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "textStyle": {
+                        "fontWeight": "bold",
+                        "fontSize": 24
+                    }
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "formatter": "{a} <br/>{b} : {c}%",
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        ""
+                    ],
+                    "selected": {
+                        "": true
+                    },
+                    "show": false,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "gauge",
+                    "title": {
+                        "show": true,
+                        "position": "top",
+                        "color": "blue",
+                        "margin": 8,
+                        "fontSize": 40,
+                        "fontFamily": "Microsoft YaHei"
+                    },
+                    "detail": {
+                        "show": true,
+                        "backgroundColor": "transparent",
+                        "borderWidth": 0,
+                        "borderColor": "transparent",
+                        "offsetCenter": [
+                            0,
+                            "-40%"
+                        ],
+                        "formatter": "{value}%",
+                        "color": "auto",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                        "fontFamily": "sans-serif",
+                        "fontSize": 15,
+                        "borderRadius": 0,
+                        "padding": 0,
+                        "shadowColor": "transparent",
+                        "shadowBlur": 0,
+                        "shadowOffsetX": 0,
+                        "shadowOffsetY": 0
+                    },
+                    "min": 0,
+                    "max": 100,
+                    "splitNumber": 10,
+                    "radius": "50%",
+                    "startAngle": 225,
+                    "endAngle": -45,
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "value": [
+                                74.2
+                            ]
+                        }
+                    ],
+                    "pointer": {
+                        "show": true,
+                        "length": "80%",
+                        "width": 8
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    },
+                    "TextStyleOpts": {
+                        "fontSize": 24
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "Daily Nutrition Intake Completetion Rate",
+                    "subtext": "2022-05-11",
+                    "left": "center",
+                    "top": 10,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "textStyle": {
+                        "fontWeight": "bold",
+                        "fontSize": 24
+                    }
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "formatter": "{a} <br/>{b} : {c}%",
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        ""
+                    ],
+                    "selected": {
+                        "": true
+                    },
+                    "show": false,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "gauge",
+                    "title": {
+                        "show": true,
+                        "position": "top",
+                        "color": "blue",
+                        "margin": 8,
+                        "fontSize": 40,
+                        "fontFamily": "Microsoft YaHei"
+                    },
+                    "detail": {
+                        "show": true,
+                        "backgroundColor": "transparent",
+                        "borderWidth": 0,
+                        "borderColor": "transparent",
+                        "offsetCenter": [
+                            0,
+                            "-40%"
+                        ],
+                        "formatter": "{value}%",
+                        "color": "auto",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                        "fontFamily": "sans-serif",
+                        "fontSize": 15,
+                        "borderRadius": 0,
+                        "padding": 0,
+                        "shadowColor": "transparent",
+                        "shadowBlur": 0,
+                        "shadowOffsetX": 0,
+                        "shadowOffsetY": 0
+                    },
+                    "min": 0,
+                    "max": 100,
+                    "splitNumber": 10,
+                    "radius": "50%",
+                    "startAngle": 225,
+                    "endAngle": -45,
+                    "clockwise": true,
+                    "data": [
+                        {
+                            "value": [
+                                82.6
+                            ]
+                        }
+                    ],
+                    "pointer": {
+                        "show": true,
+                        "length": "80%",
+                        "width": 8
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    },
+                    "TextStyleOpts": {
+                        "fontSize": 24
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "text": "Daily Nutrition Intake Completetion Rate",
+                    "subtext": "2022-05-12",
+                    "left": "center",
+                    "top": 10,
+                    "padding": 5,
+                    "itemGap": 10,
+                    "textStyle": {
+                        "fontWeight": "bold",
+                        "fontSize": 24
+                    }
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "formatter": "{a} <br/>{b} : {c}%",
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        }
+    ]
+};
+        chart_4beb9c5634134b3db09606dbad5e2f57.setOption(option_4beb9c5634134b3db09606dbad5e2f57);
+    </script>
+<br/>                <div id="58e7514b76184c229bd3b5ab664c7a3b" class="chart-container" style="position: absolute; width: 404px; height: 310px; top: 360.5px; left: 116px;"></div>
+    <script>
+        var chart_58e7514b76184c229bd3b5ab664c7a3b = echarts.init(
+            document.getElementById('58e7514b76184c229bd3b5ab664c7a3b'), 'white', {renderer: 'canvas'});
+        var option_58e7514b76184c229bd3b5ab664c7a3b = {
+    "baseOption": {
+        "series": [
+            {
+                "type": "radar",
+                "name": "2022-05-12",
+                "data": [
+                    [
+                        1603,
+                        20.6,
+                        297.48,
+                        57.77
+                    ]
+                ],
+                "label": {
+                    "show": false,
+                    "position": "top",
+                    "margin": 8
+                },
+                "itemStyle": {
+                    "normal": {}
+                },
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                },
+                "areaStyle": {
+                    "opacity": 0.5
+                },
+                "rippleEffect": {
+                    "show": true,
+                    "brushType": "stroke",
+                    "scale": 2.5,
+                    "period": 4
+                }
+            }
+        ],
+        "timeline": {
+            "axisType": "category",
+            "orient": "horizontal",
+            "autoPlay": true,
+            "controlPosition": "left",
+            "loop": true,
+            "rewind": false,
+            "show": false,
+            "inverse": false,
+            "playInterval": 2500,
+            "bottom": "-5px",
+            "data": [
+                "2022-05-10",
+                "2022-05-11",
+                "2022-05-12"
+            ]
+        },
+        "radar": {
+            "indicator": [
+                {
+                    "name": "Calories",
+                    "max": 2000
+                },
+                {
+                    "name": "Fat",
+                    "max": 88
+                },
+                {
+                    "name": "Carbs",
+                    "max": 280
+                },
+                {
+                    "name": "Proteins",
+                    "max": 60
+                }
+            ],
+            "name": {
+                "textStyle": {
+                    "color": "#000000"
+                }
+            },
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "splitArea": {
+                "show": true,
+                "areaStyle": {
+                    "opacity": 1
+                }
+            },
+            "axisLine": {
+                "show": true,
+                "onZero": true,
+                "onZeroAxisIndex": 0
+            }
+        }
+    },
+    "options": [
+        {
+            "legend": [
+                {
+                    "data": [
+                        "2022-05-10"
+                    ],
+                    "selected": {
+                        "2022-05-10": true
+                    },
+                    "show": true,
+                    "right": 30,
+                    "bottom": 20,
+                    "orient": "vertical",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "radar",
+                    "name": "2022-05-10",
+                    "data": [
+                        [
+                            1963.0,
+                            86.59,
+                            182.58,
+                            94.01
+                        ]
+                    ],
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "itemStyle": {
+                        "normal": {}
+                    },
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0,
+                        "type": "solid"
+                    },
+                    "areaStyle": {
+                        "opacity": 0.5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "2022-05-11"
+                    ],
+                    "selected": {
+                        "2022-05-11": true
+                    },
+                    "show": true,
+                    "right": 30,
+                    "bottom": 20,
+                    "orient": "vertical",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "radar",
+                    "name": "2022-05-11",
+                    "data": [
+                        [
+                            1657.5,
+                            49.085,
+                            213.455,
+                            80.905
+                        ]
+                    ],
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "itemStyle": {
+                        "normal": {}
+                    },
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0,
+                        "type": "solid"
+                    },
+                    "areaStyle": {
+                        "opacity": 0.5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        },
+        {
+            "legend": [
+                {
+                    "data": [
+                        "2022-05-12"
+                    ],
+                    "selected": {
+                        "2022-05-12": true
+                    },
+                    "show": true,
+                    "right": 30,
+                    "bottom": 20,
+                    "orient": "vertical",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "itemWidth": 25,
+                    "itemHeight": 14
+                }
+            ],
+            "series": [
+                {
+                    "type": "radar",
+                    "name": "2022-05-12",
+                    "data": [
+                        [
+                            1603,
+                            20.6,
+                            297.48,
+                            57.77
+                        ]
+                    ],
+                    "label": {
+                        "show": false,
+                        "position": "top",
+                        "margin": 8
+                    },
+                    "itemStyle": {
+                        "normal": {}
+                    },
+                    "lineStyle": {
+                        "show": true,
+                        "width": 1,
+                        "opacity": 1,
+                        "curveness": 0,
+                        "type": "solid"
+                    },
+                    "areaStyle": {
+                        "opacity": 0.5
+                    },
+                    "rippleEffect": {
+                        "show": true,
+                        "brushType": "stroke",
+                        "scale": 2.5,
+                        "period": 4
+                    }
+                }
+            ],
+            "title": [
+                {
+                    "padding": 5,
+                    "itemGap": 10
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5
+            },
+            "color": [
+                "#c23531",
+                "#2f4554",
+                "#61a0a8",
+                "#d48265",
+                "#749f83",
+                "#ca8622",
+                "#bda29a",
+                "#6e7074",
+                "#546570",
+                "#c4ccd3",
+                "#f05b72",
+                "#ef5b9c",
+                "#f47920",
+                "#905a3d",
+                "#fab27b",
+                "#2a5caa",
+                "#444693",
+                "#726930",
+                "#b2d235",
+                "#6d8346",
+                "#ac6767",
+                "#1d953f",
+                "#6950a1",
+                "#918597"
+            ]
+        }
+    ]
+};
+        chart_58e7514b76184c229bd3b5ab664c7a3b.setOption(option_58e7514b76184c229bd3b5ab664c7a3b);
+    </script>
+<br/>    </div>
+    <script>
+            $('#33eb83d380064d21b0832b36a109845e').css('border-style', 'dashed').css('border-width', '0px');$("#33eb83d380064d21b0832b36a109845e>div:nth-child(1)").width("100%").height("100%");
+            new ResizeSensor(jQuery('#33eb83d380064d21b0832b36a109845e'), function() { chart_33eb83d380064d21b0832b36a109845e.resize()});
+            $('#4beb9c5634134b3db09606dbad5e2f57').css('border-style', 'dashed').css('border-width', '0px');$("#4beb9c5634134b3db09606dbad5e2f57>div:nth-child(1)").width("100%").height("100%");
+            new ResizeSensor(jQuery('#4beb9c5634134b3db09606dbad5e2f57'), function() { chart_4beb9c5634134b3db09606dbad5e2f57.resize()});
+            $('#58e7514b76184c229bd3b5ab664c7a3b').css('border-style', 'dashed').css('border-width', '0px');$("#58e7514b76184c229bd3b5ab664c7a3b>div:nth-child(1)").width("100%").height("100%");
+            new ResizeSensor(jQuery('#58e7514b76184c229bd3b5ab664c7a3b'), function() { chart_58e7514b76184c229bd3b5ab664c7a3b.resize()});
+            var charts_id = ['33eb83d380064d21b0832b36a109845e','4beb9c5634134b3db09606dbad5e2f57','58e7514b76184c229bd3b5ab664c7a3b'];
+function downloadCfg () {
+    const fileName = 'chart_config.json'
+    let downLink = document.createElement('a')
+    downLink.download = fileName
+
+    let result = []
+    for(let i=0; i<charts_id.length; i++) {
+        chart = $('#'+charts_id[i])
+        result.push({
+            cid: charts_id[i],
+            width: chart.css("width"),
+            height: chart.css("height"),
+            top: chart.offset().top + "px",
+            left: chart.offset().left + "px"
+        })
+    }
+
+    let blob = new Blob([JSON.stringify(result)])
+    downLink.href = URL.createObjectURL(blob)
+    document.body.appendChild(downLink)
+    downLink.click()
+    document.body.removeChild(downLink)
+}
+    </script>
+</body>
+</html>
